@@ -16,7 +16,8 @@
 6. `Drum` 클래스는 `Instrument`를 상속받고, 생성자에서 `base("드럼")`를 호출함
    - `Play()`를 오버라이드하여 "🥁 드럼을 두드립니다 - 둥둥둥~"을 출력함
    - `Tune()`은 오버라이드하지 않음 (부모의 기본 동작 사용)
-7. `Instrument[]` 배열에 `Piano`, `Guitar`, `Drum` 객체를 담고, `foreach`로 순회하며 `Tune()`과 `Play()`를 호출함
+7. `Instrument[]` 배열에 `Piano`, `Guitar`, `Drum` 객체를 담고, `foreach`로 순회하며 
+    `Tune()`과 `Play()`를 호출함
 
 ## 예상 실행 결과
 
